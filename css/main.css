@@ -8,6 +8,9 @@ html {
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
 }
+body{
+ background: -webkit-gradient(linear, left top, left bottom,from(#4d4d4d), to(#fff)) fixed;
+}
 a {
   text-decoration: none;
 }
