@@ -215,8 +215,8 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
-  opacity: .99;
+  background-color: -webkit-gradient(linear, left top, left bottom,from(#4d4d4d), to(#fff)) fixed;
+  opacity: .2;
   z-index: -1;
 }
 #hero .hero {
