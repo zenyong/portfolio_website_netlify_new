@@ -267,6 +267,9 @@ p {
 /* End Hero Section */
 
 /* Services Section */
+.skill-title{
+  text-shadow: 0px 0px 8px #686767;
+}
 #services .services {
   flex-direction: column;
   text-align: center;
@@ -286,15 +289,15 @@ p {
   margin-top: 50px;
 }
 #services .service-item {
-  flex-basis: 80%;
+  flex-basis: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/img-1.png);
   background-size: cover;
+  box-shadow: 0 0 10px black;
   margin: 10px 5%;
   position: relative;
   z-index: 1;
@@ -469,7 +472,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 0px 18px 0 #0000002c;
+  box-shadow: 0 0 10px black;
   transition: .3s ease box-shadow;
 }
 #contact .contact-item:hover {
