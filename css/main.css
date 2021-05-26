@@ -267,8 +267,8 @@ p {
 /* End Hero Section */
 
 /* Services Section */
-.skill-title{
-  text-shadow: 0px 0px 8px #686767;
+.skill-header{
+  text-shadow: 0px 0px 5px #4b4b4b;
 }
 #services .services {
   flex-direction: column;
